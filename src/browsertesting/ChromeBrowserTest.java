@@ -20,9 +20,9 @@ public class ChromeBrowserTest {
         //Print the page source
         System.out.println("Page Source: "+driver.getPageSource());
         //Enter the email to email field
-        driver.findElement(By.id("username")).sendKeys("Maitriborad@gmail.com");
+        driver.findElement(By.id("username")).sendKeys("Paryank18us@gmail.com");
         //Enter the password to password field
-        driver.findElement(By.id("password")).sendKeys("Maitri@123");
+        driver.findElement(By.id("password")).sendKeys("Paryank@123");
         //Close the browser
         driver.close();
     }
